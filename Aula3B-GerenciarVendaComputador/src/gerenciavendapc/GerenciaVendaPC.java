@@ -18,7 +18,7 @@ public class GerenciaVendaPC {
         pc.setNumeroSerie(Long.parseLong(sc.nextLine()));
         System.out.println("Qual o preço?");
         pc.setPreco(Double.parseDouble(sc.nextLine()));
-        System.out.println("-------------------------------");
+        System.out.println("");
         //pc.imprimir();
         pc.calculaValor();
         pc.imprimir();
@@ -34,7 +34,7 @@ public class GerenciaVendaPC {
         pc2.setNumeroSerie(Long.parseLong(sc.nextLine()));
         System.out.println("Qual o preço?");
         pc2.setPreco(Double.parseDouble(sc.nextLine()));
-        System.out.println("---------------------------------------");
+        System.out.println("");
         //pc2.imprimir();
         pc2.calculaValor();
         pc2.imprimir();

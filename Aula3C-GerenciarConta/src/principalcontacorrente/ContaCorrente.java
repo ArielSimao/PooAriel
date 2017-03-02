@@ -2,12 +2,13 @@
 package principalcontacorrente;
 
 public class ContaCorrente {
+    
     private String conta;
     private double saldo;
     private String nomeCliente;
     
     public int sacar(double valor){
-        if(saldo > valor){
+        if(valor <= saldo ){
             saldo -= valor;
             return 1;
         }
@@ -21,5 +22,6 @@ public class ContaCorrente {
         System.out.println("Nome Cliente"+nomeCliente);
         System.out.println("Número da conta" +conta);
         System.out.println("Saldo atual "+saldo);
+        System.out.println("");
     }
 }

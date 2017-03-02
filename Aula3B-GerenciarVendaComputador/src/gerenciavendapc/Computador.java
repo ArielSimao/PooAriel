@@ -13,7 +13,7 @@ public class Computador {
         System.out.println("Cor "+cor);
         System.out.println("Modelo "+modelo);
         System.out.println("Número Série " +numeroSerie);
-        System.out.println("Peço "+preco);
+        System.out.println("Preço "+preco);
     }
     public void calculaValor(){
         
