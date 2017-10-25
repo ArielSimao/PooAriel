@@ -1,21 +1,11 @@
-/*
- * Aulas professor Maromo.
- */
+
 package questao1;
 
 import java.util.Scanner;
-
-/**
- *
- * @author maromo
- */
 public class Questao1 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
         //5 a)
         Computador c1 = null, c2 = null;
         Scanner sc = new Scanner(System.in);

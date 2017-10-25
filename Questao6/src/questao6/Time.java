@@ -1,12 +1,6 @@
-/*
- * Aulas professor Maromo.
- */
-package questao6;
 
-/**
- *
- * @author maromo
- */
+package questao6;
+ 
 public class Time {
     private int idTime;
     private String nomeTime;

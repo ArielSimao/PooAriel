@@ -1,12 +1,6 @@
-/*
- * Aulas professor Maromo.
- */
+
 package questao1;
 
-/**
- *
- * @author maromo
- */
 public class Usuario {
     private int idUsuario;
     private String nome;

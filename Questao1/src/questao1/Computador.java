@@ -1,12 +1,6 @@
-/*
- * Aulas professor Maromo.
- */
+
 package questao1;
 
-/**
- *
- * @author maromo
- */
 public class Computador {
     private int idComp;
     private String descricao;
